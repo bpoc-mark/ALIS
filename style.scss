@@ -26,3 +26,425 @@ $color4: #707070;
         padding: 0 15px;
     }
 }
+
+.w_100{
+    width: 100%;
+    position: relative;
+}
+
+// *************************************************
+// GENERAL CSS
+// *************************************************
+.sect_title_cont{
+    margin-bottom: 50px;
+    .sect_title{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+    }
+    .sect_border_mid{
+        border: 1px solid #000;
+        width: 300px;
+        margin: 0 auto 10px;
+    }
+    .sect_des{
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+.btn_container{
+    background-color: $color2;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+    .sect_btn{
+        display: inline-block;
+        background-color: #f6121c;
+        border: none;
+        text-align: center;
+        color: $color2;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 15px 50px;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+}
+
+
+// *************************************************
+// HEADER CSS
+// *************************************************
+header{
+    position: fixed !important;
+    z-index: 999;
+    .w_100{
+        .container{
+            .w_100{
+                .navbar{
+                    width: 100%;
+                    position: relative;
+                    display: flex;
+                    flex: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 15px 0;
+                    .nav_logo{
+                        a{
+                            display: flex;
+                            align-items: center;
+                            img{
+                                max-width: 70px;
+                            }
+                        }
+                    }
+                    .navbar_nav{
+                        text-align: center;
+                        position: relative;
+                        .nav_item{
+                            display: inline-block;
+                            &:not(:last-child){
+                                margin-right: 50px;
+                            }
+                            .nav_link{
+                                font-size: 12px;
+                                font-weight: 700;
+                                color: #fff;
+                                
+                                p{
+                                    font-size: 9px;
+                                    font-weight: 700;
+                                    color: #fff;
+                                }
+                            }
+                            .active_link{
+                                color: $color3;
+                                p{
+                                    color: $color3;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// INDEX SECTION 1
+// *************************************************
+.section_1{
+    .w_100{
+        #bgvid{
+            object-fit: cover;
+            width: 100%;
+            height: 100vh;
+        }
+        .bg_overlay{
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            background-color: rgba(0, 0, 0, 0.10);
+        }
+        .container{
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            margin: 0 auto;
+            .w_100{
+                h2{
+                    font-family: yu-mincho-pr6n, sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 48px;
+                    color: $color2;
+                    span{
+                        font-family: yu-mincho-pr6n, sans-serif;
+                        font-weight: 400;
+                        font-style: normal;
+                        font-size: 32px;
+                        color: $color2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// INDEX SECTION 2
+// *************************************************
+.section_2{
+    padding: 100px 0;
+    .w_100{
+        .container{
+            .w_100{
+                .sect_2_des{
+                    font-size: 20px;
+                    text-align: center;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// INDEX SECTION 3
+// *************************************************
+.section_3{
+    padding-bottom: 100px;
+    .w_100{
+        .news_cont{
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            .news_list_cont{
+                width: 100%;
+                position: relative;
+                list-style: none;
+                .news_item{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    padding: 10px 30px;
+                    border-bottom: 1px solid #000;
+                    .news_row{
+                        p{
+                            font-size: 16px;
+                            text-align: left;
+                            font-weight: 700;
+                        }
+                        &:nth-of-type(1){
+                            margin-right: 20px;
+                        }
+                        &:nth-of-type(2){
+                            width: 580px;
+                        }
+                    }
+                }
+                .news_gotolist{
+                    text-align: right;
+                    margin-top: 25px;
+                    a{
+                        font-size: 16px;
+                        text-align: center;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// INDEX SECTION 4
+// *************************************************
+.section_4{
+    padding: 100px 0 0;
+    background: url(/assets/img/index/sect_4/sect_4_bg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    .sect_4_overlay{
+        background-color: rgba(0, 0, 0, 0.60);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .w_100{
+        z-index: 2;
+        .container{
+            .w_100{
+                .sect_4_title{
+                    .sect_title{
+                        color: $color2;
+                    }
+                    .sect_border_mid{
+                        border: 1px solid $color2;
+                    }
+                    .sect_des{
+                        color: $color2;
+                    }
+                }
+                .service_cont{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    .service_item{
+                        width: 49%;
+                        h4{
+                            color: $color2;
+                            font-size: 14px;
+                            font-weight: 700;
+                            margin-bottom: 8px
+                        }
+                        .serv_item_dis{
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: flex-start;
+                            .serv_item_dis_row{
+                                width: 50%;
+                                margin-bottom: 30px;
+                                &:nth-of-type(2){
+                                    padding: 0 20px 0 20px;
+                                }
+                                img{
+                                    width: 100%;
+                                }
+                                p{
+                                    color: $color2;
+                                    font-size: 13px;
+                                    font-weight: 700;
+                                    margin-bottom: 8px
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// INDEX SECTION 5
+// *************************************************
+.section_5{
+    background: url(/assets/img/index/sect_5/sect_5_bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    .sect_5_overlay{
+        background-color: rgba(0, 0, 0, 0.60);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .w_100{
+        z-index: 2;
+        .container{
+            padding: 200px 0;
+            .w_100{
+                .sect_5_title{
+                    .sect_title{
+                        color: $color2;
+                    }
+                    .sect_border_mid{
+                        border: 1px solid $color2;
+                    }
+                    .sect_des{
+                        color: $color2;
+                    }
+                }
+                p{
+                    font-size: 16px;
+                    text-align: center;
+                    font-weight: 700;
+                    color: $color2;
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// INDEX SECTION 6
+// *************************************************
+.section_6{
+    background: url(/assets/img/index/sect_6/sect_6_bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    .sect_6_overlay{
+        background-color: rgba(0, 0, 0, 0.60);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .w_100{
+        z-index: 2;
+        .container{
+            padding: 200px 0;
+            .w_100{
+                .sect_6_title{
+                    .sect_title{
+                        color: $color2;
+                    }
+                    .sect_border_mid{
+                        border: 1px solid $color2;
+                    }
+                    .sect_des{
+                        color: $color2;
+                    }
+                }
+                p{
+                    font-size: 16px;
+                    text-align: center;
+                    font-weight: 700;
+                    color: $color2;
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// INDEX SECTION 7
+// *************************************************
+.section_7{
+    background: url(/assets/img/index/sect_7/sect_7_bg.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0;
+    .sect_7_overlay{
+        background-color: rgba(0, 0, 0, 0.40);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .w_100{
+        z-index: 2;
+        .container{
+            .w_100{
+                h3{
+                    font-size: 36px;
+                    text-align: center;
+                    font-weight: 700;
+                    color: $color2;
+                    margin-bottom: 10px;
+                }
+                p{
+                    text-align: center;
+                    font-weight: 700;
+                    color: $color2;
+                    &:nth-of-type(1){
+                        font-size: 20px;
+                        margin-bottom: 50px;
+                    }
+                    &:nth-of-type(2){
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
