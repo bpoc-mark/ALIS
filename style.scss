@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #303030;
+    font-family: "Yu Gothic", YuGothic, sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    text-decoration: none;
+}
+
+$color1: #303030;
+$color2: #FFFFFF;
+$color3: #db4832;
+$color4: #707070;
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    position: relative;
+
+    @media only screen and (max-width: 1140px) {
+        padding: 0 15px;
+    }
+}
