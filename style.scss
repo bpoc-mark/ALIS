@@ -78,7 +78,7 @@ $color4: #707070;
 // HEADER CSS
 // *************************************************
 header{
-    position: fixed !important;
+    position: absolute !important;
     z-index: 999;
     .w_100{
         .container{
@@ -87,46 +87,118 @@ header{
                     width: 100%;
                     position: relative;
                     display: flex;
-                    flex: wrap;
+                    flex-wrap: wrap;
                     justify-content: space-between;
                     align-items: center;
                     padding: 15px 0;
+                    @media screen and (max-width: 700px) {
+                        padding: 10px 0;
+                    }
                     .nav_logo{
                         a{
                             display: flex;
                             align-items: center;
                             img{
                                 max-width: 70px;
+                                @media screen and (max-width: 700px) {
+                                    width: 50px;
+                                }
                             }
+                        }
+                    }
+                    .navbar_toggler{
+                        display: none;
+                        @media screen and (max-width: 700px) {
+                            display: block;
+                            background-color: transparent;
+                            border: none;
+                        }
+
+                        i{
+                            font-size: 20px;
+                            color: $color3;
                         }
                     }
                     .navbar_nav{
                         text-align: center;
                         position: relative;
+                        @media screen and (max-width: 700px) {
+                            display: block;
+                            width: 100%;
+                            background-color: $color2;
+                            // padding: 10px 0 15px;
+                            margin-top: 10px;
+                            height: 0;
+                            overflow: hidden;
+                            transition: height .5s;
+                        }
                         .nav_item{
                             display: inline-block;
+                            @media screen and (max-width: 700px) {
+                                display: block;
+                                padding: 5px;
+                            }
+
                             &:not(:last-child){
                                 margin-right: 50px;
+                                @media screen and (max-width: 700px) {
+                                    margin-right: 0;
+                                }
                             }
                             .nav_link{
+                                display: block;
+                                width: 100%;
                                 font-size: 12px;
                                 font-weight: 700;
                                 color: #fff;
-                                
+                                @media screen and (max-width: 700px) {
+                                    color: $color1;
+                                    padding: 5px 0;
+                                }
                                 p{
                                     font-size: 9px;
                                     font-weight: 700;
                                     color: #fff;
+                                    @media screen and (max-width: 700px) {
+                                        color: $color1;
+                                    }
                                 }
                             }
-                            .active_link{
-                                color: $color3;
-                                p{
-                                    color: $color3;
-                                }
-                            }
+                            // .active_link{
+                            //     @media screen and (max-width: 700px) {
+                            //         background: #ff9090;
+                            //     }
+                            //     color: $color3;
+                            //     @media screen and (max-width: 700px) {
+                            //         color: $color2;
+                            //     }
+                            //     p{
+                            //         color: $color3;
+                            //         @media screen and (max-width: 700px) {
+                            //             color: $color2;
+                            //         }
+                            //     }
+                            // }
                         }
+                        
                     }
+                }
+            }
+        }
+    }
+}
+
+.head_p_fixed{
+    position: fixed !important;
+    transition: all 450ms;
+    background-color: $color2;
+    box-shadow: 1px 3px 13px -2px rgba(0,0,0,0.49);
+    .navbar_nav{
+        .nav_item{
+            .nav_link{
+                color: $color1 !important;
+                p{
+                    color: $color1 !important;
                 }
             }
         }
@@ -205,8 +277,11 @@ header{
     .w_100{
         .news_cont{
             max-width: 800px;
-            width: 100%;
+            // width: 100%;
             margin: 0 auto;
+            @media screen and (max-width: 768px) {
+                width: 95%;
+            }
             .news_list_cont{
                 width: 100%;
                 position: relative;
@@ -215,8 +290,12 @@ header{
                     display: flex;
                     justify-content: flex-start;
                     align-items: flex-start;
+                    flex-wrap: wrap;
                     padding: 10px 30px;
                     border-bottom: 1px solid #000;
+                    @media screen and (max-width: 700px) {
+                        padding: 10px 10px;
+                    }
                     .news_row{
                         p{
                             font-size: 16px;
@@ -225,9 +304,15 @@ header{
                         }
                         &:nth-of-type(1){
                             margin-right: 20px;
+                            @media screen and (max-width: 700px) {
+                                width: 100%;
+                            }
                         }
                         &:nth-of-type(2){
                             width: 580px;
+                            @media screen and (max-width: 700px) {
+                                width: 100%;
+                            }
                         }
                     }
                 }
@@ -284,6 +369,9 @@ header{
                     align-items: flex-start;
                     .service_item{
                         width: 49%;
+                        @media screen and (max-width: 550px) {
+                            width: 100%;
+                        }
                         h4{
                             color: $color2;
                             font-size: 14px;
@@ -294,11 +382,20 @@ header{
                             display: flex;
                             justify-content: space-between;
                             align-items: flex-start;
+                            flex-wrap: wrap;
                             .serv_item_dis_row{
                                 width: 50%;
                                 margin-bottom: 30px;
+                                @media screen and (max-width: 900px) {
+                                    width: 100%;
+                                    margin-bottom: 0;
+                                }
                                 &:nth-of-type(2){
                                     padding: 0 20px 0 20px;
+                                    @media screen and (max-width: 900px) {
+                                        padding: 0;
+                                        margin-bottom: 30px;
+                                    }
                                 }
                                 img{
                                     width: 100%;
@@ -444,6 +541,124 @@ header{
                         font-size: 16px;
                     }
                 }
+            }
+        }
+    }
+}
+
+// *************************************************
+// FOOTER
+// *************************************************
+footer{
+    .footer_details_cont{
+        background-color: #303030;
+        .w_100{
+            .container{
+                .footer_cont{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    position: relative;
+                    padding: 20px 0;
+                    .footer_row{
+                        width: 50%;
+                        @media screen and (max-width: 900px) {
+                            width: 100%;
+                        }
+                        &:nth-of-type(1){
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            @media screen and (max-width: 900px) {
+                                justify-content: center;
+                                margin-bottom: 20px;
+                                flex-wrap: wrap;
+                            }
+                            .footer_logo{
+                                width: 70px;
+                                margin-right: 20px;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            .footer_details{
+                                @media screen and (max-width: 560px) {
+                                    width: 100%;
+                                }
+                                p{
+                                    color: $color2;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    margin-bottom: 10px;
+                                    i{
+                                        color: $color2;
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                        }
+                        &:nth-of-type(2){
+                            display: flex;
+                            justify-content: flex-end;
+                            flex-wrap: wrap;
+                            align-items: center;
+                            .footer_img{
+                                width: 200px;
+                                margin-right: 20px;
+                                @media screen and (max-width: 900px) {
+                                    width: 50%;
+                                    margin: 0 auto 10px;
+                                }
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            .footer_map{
+                                width: 220px;
+                                @media screen and (max-width: 900px) {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .footer_nav{
+                background: $color2;
+                @media screen and (max-width: 1000px) {
+                    display: none;
+                }
+                .navbar_nav_foot{
+                    text-align: center;
+                    position: relative;
+                    padding: 10px;
+                    .nav_item_foot{
+                        display: inline-block;
+                        margin: 0 20px;
+                        .nav_link{
+                            display: block;
+                            width: 100%;
+                            font-size: 12px;
+                            font-weight: 700;
+                            color: #707070;
+                            p{
+                                font-size: 9px;
+                                font-weight: 700;
+                                color: #707070;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            .footer_copyright{
+               .copy_right_txt{
+                   text-align: center;
+                   color: $color2;
+                   padding: 10px;
+                   font-size: 12px;
+               }
             }
         }
     }
