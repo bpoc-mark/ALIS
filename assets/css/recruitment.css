@@ -1,0 +1,27 @@
+.section_1 {
+  text-align: center;
+}
+
+.section_1__title {
+  font-size: 30px;
+  color: #303030;
+  padding: 5em 0 2em 0;
+}
+
+.section_1__sub {
+  font-weight: 800;
+  font-size: 13px;
+}
+
+.section_1__requirements {
+  font-size: 30px;
+  color: #303030;
+  padding: 5em 0 2em 0;
+}
+
+.section_1__sub2 {
+  font-weight: 800;
+  font-size: 13px;
+  padding: 0 0 5em 0;
+}
+/*# sourceMappingURL=recruitment.css.map */
