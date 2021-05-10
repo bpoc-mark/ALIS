@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #303030;
+  font-family: "Yu Gothic", YuGothic, sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media only screen and (max-width: 1140px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.w_100 {
+  width: 100%;
+  position: relative;
+}
+
+.sect_title_cont {
+  margin-bottom: 50px;
+}
+
+.sect_title_cont .sect_title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.sect_title_cont .sect_border_mid {
+  border: 1px solid #000;
+  width: 300px;
+  margin: 0 auto 10px;
+}
+
+.sect_title_cont .sect_des {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn_container {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.btn_container .sect_btn {
+  display: inline-block;
+  background-color: #f6121c;
+  border: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 50px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+header {
+  position: fixed !important;
+  z-index: 999;
+}
+
+header .w_100 .container .w_100 .navbar {
+  width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 0;
+}
+
+header .w_100 .container .w_100 .navbar .nav_logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .w_100 .container .w_100 .navbar .nav_logo a img {
+  max-width: 70px;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav {
+  text-align: center;
+  position: relative;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item {
+  display: inline-block;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item:not(:last-child) {
+  margin-right: 50px;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .nav_link {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .nav_link p {
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link {
+  color: #db4832;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link p {
+  color: #db4832;
+}
+
+.recruitment_section_1 .w_100 #bgvid {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.recruitment_section_1 .w_100 .bg_overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.recruitment_section_1 .w_100 .container {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.recruitment_section_1 .w_100 .container .w_100 h2 {
+  font-family: yu-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.recruitment_section_1 .w_100 .container .w_100 h2 span {
+  font-family: yu-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.recruitment_section_2 {
+  padding-top: 55px;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_2 .w_100 .container {
+    padding: 0;
+  }
+}
+
+.recruitment_section_2 .w_100 .container .w_100 .r_2_title .sect_title {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.recruitment_section_2 .w_100 .container .w_100 .r_2_title .sect_des {
+  margin-bottom: 1.6em;
+}
+
+.recruitment_section_3 {
+  padding-top: 55px;
+}
+
+.recruitment_section_3 .w_100 {
+  margin-bottom: 57px;
+}
+
+.recruitment_section_3 .w_100 .r_3_title .sect_title {
+  margin: 70px auto;
+}
+
+.recruitment_section_3 .w_100 .r1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  list-style-type: none;
+}
+
+.recruitment_section_3 .w_100 .r1 .w_50 {
+  width: 49.3%;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r1 .w_50 {
+    width: 100%;
+  }
+}
+
+.recruitment_section_3 .w_100 .r1 .w_50 img {
+  width: 100%;
+}
+
+.recruitment_section_3 .w_100 .r1 .btn_area {
+  width: 10%;
+  position: absolute;
+  top: 17%;
+  left: 53.4%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.recruitment_section_3 .w_100 .r1 .btn_area .btn_title {
+  font-size: 30px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r1 .btn_area {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .recruitment_section_3 .w_100 .r1 .btn_area a::after {
+    content: "Read more";
+    color: #fff;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    background-color: #f6121c;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .recruitment_section_3 .w_100 .r1 .btn_area a img {
+    display: none;
+  }
+}
+
+.recruitment_section_3 .w_100 .r2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style-type: none;
+  position: relative;
+}
+
+.recruitment_section_3 .w_100 .r2 .w_50 {
+  width: 49.3%;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r2 .w_50 {
+    width: 100%;
+  }
+}
+
+.recruitment_section_3 .w_100 .r2 .w_50 img {
+  width: 100%;
+}
+
+.recruitment_section_3 .w_100 .r2 .btn_area {
+  width: 10.7%;
+  position: absolute;
+  top: 17%;
+  left: 44.2%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.recruitment_section_3 .w_100 .r2 .btn_area .btn_title {
+  font-size: 30px;
+  font-weight: 400px;
+  text-align: end;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r2 .btn_area .btn_title {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r2 .btn_area {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .recruitment_section_3 .w_100 .r2 .btn_area a::after {
+    content: "Read more";
+    color: #fff;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    background-color: #f6121c;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .recruitment_section_3 .w_100 .r2 .btn_area a img {
+    display: none;
+  }
+}
+
+.recruitment_section_3 .w_100 .r3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  list-style-type: none;
+}
+
+.recruitment_section_3 .w_100 .r3 .w_50 {
+  width: 49.3%;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r3 .w_50 {
+    width: 100%;
+  }
+}
+
+.recruitment_section_3 .w_100 .r3 .w_50 img {
+  width: 100%;
+}
+
+.recruitment_section_3 .w_100 .r3 .btn_area {
+  width: 12%;
+  position: absolute;
+  top: 17%;
+  left: 54.4%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.recruitment_section_3 .w_100 .r3 .btn_area .btn_title {
+  font-size: 30px;
+  font-weight: 400px;
+  text-align: center;
+  padding-left: 1em;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r3 .btn_area {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .recruitment_section_3 .w_100 .r3 .btn_area a::after {
+    content: "Read more";
+    color: #fff;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    background-color: #f6121c;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .recruitment_section_3 .w_100 .r3 .btn_area a img {
+    display: none;
+  }
+}
+/*# sourceMappingURL=recruitment.css.map */
