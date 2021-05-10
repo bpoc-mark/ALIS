@@ -1,0 +1,4 @@
+<svg id="arrow-select" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 26.944">
+  <path id="arrow" d="M6.028,0V6.425L11.577,12,6.028,17.575V24L17.972,12Z" transform="translate(24 8.972) rotate(90)"/>
+  <path id="arrow-2" data-name="arrow" d="M6.028,0V6.425L11.577,12,6.028,17.575V24L17.972,12Z" transform="translate(0 17.972) rotate(-90)"/>
+</svg>
