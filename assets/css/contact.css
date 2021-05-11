@@ -1,0 +1,76 @@
+.contact {
+  text-align: center;
+}
+
+.contact__title {
+  font-size: 16px;
+  color: #303030;
+  padding: 10em 0 0 0;
+}
+
+.contact__sub {
+  font-size: 10px;
+  color: #303030;
+  font-weight: 800;
+}
+
+.contact__intro {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact__container {
+  background-color: #f7f7f7;
+  padding: 30px 100px;
+  max-width: 635px;
+  margin: 2.5em 0;
+}
+
+.contact__content {
+  font-size: 16px;
+  color: #303030;
+  font-weight: 800;
+  margin-bottom: 1.6em;
+}
+
+.contact__form {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact__form_input {
+  background: #f6f6f6;
+  padding: 30px 20px;
+  max-width: 635px;
+  border-radius: 25px;
+}
+
+.contact__form_input input {
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+}
+
+.contact__label {
+  font-size: 14px;
+  color: #444444;
+  padding: 0 0 3px;
+  font-weight: 800;
+}
+
+.contact__important {
+  color: red;
+}
+/*# sourceMappingURL=contact.css.map */

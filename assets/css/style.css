@@ -79,16 +79,28 @@ header {
 header .w_100 .container .w_100 .navbar {
   width: 100%;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex: wrap;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 15px 0;
 }
 
 header .w_100 .container .w_100 .navbar .nav_logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header .w_100 .container .w_100 .navbar .nav_logo a img {
@@ -129,7 +141,8 @@ header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link p {
 }
 
 .section_1 .w_100 #bgvid {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
   height: 100vh;
 }
@@ -149,7 +162,8 @@ header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link p {
   z-index: 2;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   margin: 0 auto;
 }
 
@@ -196,9 +210,15 @@ header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link p {
 }
 
 .section_3 .w_100 .news_cont .news_list_cont .news_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 10px 30px;
   border-bottom: 1px solid #000;
 }
@@ -262,10 +282,17 @@ header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link p {
 }
 
 .section_4 .w_100 .container .w_100 .service_cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .section_4 .w_100 .container .w_100 .service_cont .service_item {
@@ -280,9 +307,15 @@ header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link p {
 }
 
 .section_4 .w_100 .container .w_100 .service_cont .service_item .serv_item_dis {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .section_4 .w_100 .container .w_100 .service_cont .service_item .serv_item_dis .serv_item_dis_row {
