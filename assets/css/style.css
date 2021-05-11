@@ -71,6 +71,84 @@
   border-radius: 10px;
 }
 
+.jumbo_section {
+  margin-bottom: 50px;
+}
+
+.jumbo_section .w_100 .jumbo_cont {
+  background-image: url(/assets/img/services/services_jumbo.jpg);
+  background-position: 0 50%;
+  background-size: cover;
+  height: 500px;
+}
+
+.jumbo_section .w_100 .jumbo_cont .jumbo_overlay {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbo_section .w_100 .jumbo_cont .jumbo_des {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.jumbo_section .w_100 .jumbo_cont .jumbo_des h3 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 26px;
+  line-height: 100%;
+}
+
+.jumbo_section .w_100 .jumbo_cont .jumbo_des h3 span {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal .modal_content {
+  background-color: #FFFFFF;
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .modal .modal_content {
+    width: 90%;
+  }
+}
+
+.modal .modal_content .close_modal {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  color: #aaaaaa;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 header {
   position: absolute !important;
   z-index: 999;
@@ -693,5 +771,148 @@ footer .footer_details_cont .w_100 .footer_copyright .copy_right_txt {
   color: #FFFFFF;
   padding: 10px;
   font-size: 12px;
+}
+
+.services_section .w_100 .container .services_title {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 875px) {
+  .services_section .w_100 .container .services_title {
+    margin-bottom: 50px;
+  }
+}
+
+.services_section .w_100 .container .services_item_cont {
+  margin-bottom: 50px;
+}
+
+.services_section .w_100 .container .services_item_cont .services_item_title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 16px;
+  position: relative;
+}
+
+.services_section .w_100 .container .services_item_cont .services_item_title::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.services_section .w_100 .container .services_item_cont .sevices_des {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.services_section .w_100 .container .services_item_cont .sevices_des .row {
+  width: 49%;
+}
+
+@media screen and (max-width: 875px) {
+  .services_section .w_100 .container .services_item_cont .sevices_des .row {
+    width: 100%;
+  }
+}
+
+.services_section .w_100 .container .services_item_cont .sevices_des .row img {
+  width: 100%;
+}
+
+.services_section .w_100 .container .services_item_cont .sevices_des .row:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 875px) {
+  .services_section .w_100 .container .services_item_cont .sevices_des .row:nth-of-type(2) .ser_desc {
+    margin-bottom: 20px;
+  }
+}
+
+.services_section .w_100 .container .services_item_cont .sevices_des .row:nth-of-type(2) .ser_desc p {
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.services_section .w_100 .container .services_item_cont .sevices_des .row:nth-of-type(2) .ser_btn_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services_section .w_100 .container .services_item_cont .sevices_des .row:nth-of-type(2) .ser_btn_cont .ser_btn {
+  width: 32%;
+  padding: 10px;
+  background: #db4832;
+  border: 1px solid #db4832;
+  color: #FFFFFF;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 500px) {
+  .services_section .w_100 .container .services_item_cont .sevices_des .row:nth-of-type(2) .ser_btn_cont .ser_btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.modal .modal_content .services_modal_content .modal_title {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #db4832;
+  margin-bottom: 10px;
+}
+
+.modal .modal_content .services_modal_content .w_100 .feedback_title {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.modal .modal_content .services_modal_content .w_100 .row_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.modal .modal_content .services_modal_content .w_100 .row_cont .row {
+  width: 49%;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal .modal_content .services_modal_content .w_100 .row_cont .row {
+    width: 100%;
+  }
+}
+
+.modal .modal_content .services_modal_content .w_100 .row_cont .row img {
+  width: 100%;
+}
+
+.modal .modal_content .services_modal_content .w_100 .row_cont .row p {
+  font-weight: 600;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */

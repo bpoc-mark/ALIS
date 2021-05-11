@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIS</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- FONT AWESOME -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="w_100">
+        <div class="w_100">
+            <div class="container">
+                <div class="w_100">
+                    <nav class="navbar">
+                        <h1 class="nav_logo">
+                            <a href="">
+                                <img src="assets/img/logo.png" class="head_logo" alt="">
+                            </a>
+                        </h1>
+                        <button class="navbar_toggler" type="button" onclick="navbar_collapse()">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <ul class="navbar_nav">
+                            <li class="nav_item ">
+                                <a href="" class="nav_link active_link">
+                                    TOP
+                                    <p>トップ</p>
+                                </a>
+                            </li>
+                            <li class="nav_item ">
+                                <a href="" class="nav_link">
+                                    SERVICES
+                                    <p>サービス一覧</p>
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="" class="nav_link">
+                                    COMPANY
+                                    <p>企業情報</p>
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="" class="nav_link">
+                                    RECRUITMENT
+                                    <p>採用情報</p>
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="" class="nav_link">
+                                    CONTACT
+                                    <p>お問合せ</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="jumbo_section">
+            <div class="w_100">
+                <div class="jumbo_cont">
+                    <div class="jumbo_overlay"></div>
+                    <div class="jumbo_des">
+                        <h3>    
+                            SERVICES <br>
+                            <span>サービス一覧</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services_section">
+            <div class="w_100">
+                <div class="container">
+                    <h4 class="services_title">皆様にご好評を頂いております<br>
+                        弊社サービスをご紹介いたします</h4>
+                    <div class="services_item_cont">
+                        <p class="services_item_title">電気料金の削減</p>
+                        <div class="sevices_des">
+                            <div class="row">
+                                <img src="assets/img/services/serv_img_1.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="ser_desc">
+                                    <p>電気はこれまで各地域の電力会社（東京電力、関西電力等）からのみ購入できましたが、「電力の自由化」がされた現在では消費者が自由に電気の購入先を選べるようになりました。お客様にぴったりの電力プランを扱う電力会社へ契約を変えるだけで、毎月の電気代を安くできるようになります。弊社はお客様にマッチした電力契約のご提案により、コスト削減をお手伝いいたします。</p>
+                                </div>
+                                <div class="ser_btn_cont">
+                                    <button class="ser_btn modal_click" href="#modal1">お客様の声 その1</button>
+                                    <button class="ser_btn modal_click" href="#modal2">お客様の声 その2</button>
+                                    <button class="ser_btn modal_click" href="#modal3">お客様の声 その3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_item_cont">
+                        <p class="services_item_title">予約管理システム（e-park）の導入支援</p>
+                        <div class="sevices_des">
+                            <div class="row">
+                                <img src="assets/img/services/serv_img_2.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="ser_desc">
+                                    <p>ご来店される方々への受付業務や、順番待ちのお問合せ対応に貴重なお時間を取られているのであれば、EPARK（イーパーク）の導入をおすすめいたします。EPARKは国内最大級の「順番待ち＆予約受付システム」で、無料で店舗様の情報を掲載できます。EPARKを導入することで3,000万人以上のEPARK会員へリーチすることができ、新規来店の増加が期待できます。弊社はEPARKの導入支援により、店舗様の新規集客と機会損失のお悩みを解決します。</p>
+                                </div>
+                                <div class="ser_btn_cont">
+                                    <button class="ser_btn modal_click" href="#modal4">お客様の声 その1</button>
+                                    <button class="ser_btn modal_click" href="#modal5">お客様の声 その2</button>
+                                    <button class="ser_btn modal_click" href="#modal6">お客様の声 その3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_item_cont">
+                        <p class="services_item_title">各種ウェブサイト制作</p>
+                        <div class="sevices_des">
+                            <div class="row">
+                                <img src="assets/img/services/serv_img_3.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="ser_desc">
+                                    <p>お客様が自社のウェブサイトで実現したいことはなんですか？ウェブサイトに求められる役割は様々ですが、お客様の課題を御社ウェブサイトを活用することで解決できるかも知れません。弊社はこれまで培ったウェブサイト制作のノウハウを活かして、それぞれの業態にあわせた「最小限のコスト」で「ちょうどいい規模」の「手間のかからない」ウェブサイト制作と運営をご提案いたします。</p>
+                                </div>
+                                <div class="ser_btn_cont">
+                                    <button class="ser_btn modal_click" href="#modal7">お客様の声 その1</button>
+                                    <button class="ser_btn modal_click" href="#modal8">お客様の声 その2</button>
+                                    <button class="ser_btn modal_click" href="#modal9">お客様の声 その3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="services_item_cont">
+                        <p class="services_item_title">ホワイトニング商材の導入支援</p>
+                        <div class="sevices_des">
+                            <div class="row">
+                                <img src="assets/img/services/serv_img_4.png" alt="">
+                            </div>
+                            <div class="row">
+                                <div class="ser_desc">
+                                    <p>国内でも広く知られるようになったホワイトニングですが、「興味があるけれど実際に試したことは無い」といった方も多く、市場としてまだまだ伸びしろがあります。弊社がご紹介するセルフホワイトニングであれば施術に歯科医師免許も不要で、ご来店者様ご自身で短時間の施術を行なっていただくことで完結します。導入に必要なものは１～２坪程度のスペースと、チェア、ワゴン、鏡といったものだけですので、初期導入コストもほとんど掛かりません。</p>
+                                </div>
+                                <div class="ser_btn_cont">
+                                    <button class="ser_btn modal_click" href="#modal10">お客様の声 その1</button>
+                                    <button class="ser_btn modal_click" href="#modal11">お客様の声 その2</button>
+                                    <button class="ser_btn modal_click" href="#modal12">お客様の声 その3</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal" id="modal1">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その1</p>
+                    <div class="w_100">
+                        <p class="feedback_title">京都府/不動産</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_1.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>何社も提案に来るも、いま以上に削減はできないと言われたため現状が限界だと思っていたが、そこから２割も下がって大満足！お付き合いのある会社にも紹介をさせていただきました！</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal2">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その2</p>
+                    <div class="w_100">
+                        <p class="feedback_title">大阪府/製造業</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_2.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>契約の切り替えもスムーズで、これまでどれだけ割引もされておらず高かったのかがよく分かりました。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal3">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その3</p>
+                    <div class="w_100">
+                        <p class="feedback_title">奈良県/ビル管理</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_3.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>契約の切り替えもスムーズで、これまでどれだけ割引もされておらず高かったのかがよく分かりました。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal4">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その1</p>
+                    <div class="w_100">
+                        <p class="feedback_title">岡山県/飲食業</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_4.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>EPARKを導入してお客様が自分で待ち時間を確認できるようになったので、お客様へのご案内の時間を減らせました。人手が空いて助かっています。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal5">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その2</p>
+                    <div class="w_100">
+                        <p class="feedback_title">三重県/歯科クリニック</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_5.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>お客様の方でEPARK上で空き時間を確認してから予約していただくようになったので、電話で来院予約を頂いたときの調整の手間が省けて予約管理が楽になりました。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal6">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その3</p>
+                    <div class="w_100">
+                        <p class="feedback_title">滋賀県/飲食業</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_6.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>ケータイのEPARKアプリで予約を入れられる方が多く、電話で順番待ちをご案内していた頃よりもキャンセルが減りました。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal7">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その1</p>
+                    <div class="w_100">
+                        <p class="feedback_title">大阪府/飲食業</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_7.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>ネットからの問合せを増やしたくてお願いしました。問合せを集める方法について教えていただき、作った後にどうやって活用すればいいかもご指導頂きました。沢山のお客様に来てもらえるように、育てていきます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal8">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その2</p>
+                    <div class="w_100">
+                        <p class="feedback_title">兵庫県/アパレル</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_8.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>古くなったホームページのリニューアルをお願いしたところレスポンシブ対応にしてくれました。スマホで見たときもきれいに見られるようになり、知人からも「見やすいホームページになったね」と言われます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal9">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その3</p>
+                    <div class="w_100">
+                        <p class="feedback_title">大阪府/フォトスタジオ</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_9.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>こちらがイメージだけで具体的なものを持っていなかったですが、よくヒアリングとご提案を頂き、想像していたもの以上のものができました。写真もきれいに撮っていただいて満足です。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal10">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その1</p>
+                    <div class="w_100">
+                        <p class="feedback_title">岡山県/ヘアサロン</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_10.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>現在来られているお客様でも簡単にできて、新しくスタッフを雇う必要がないのでコストを抑えられる　ということもあり、導入を決めました。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal11">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その2</p>
+                    <div class="w_100">
+                        <p class="feedback_title">広島県/ヘアサロン</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_11.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>最近セルフホワイトニングの話をよく聞くので、興味があったのですが、タイミングを逃していたところお得なプランで提案があったので導入に踏み切りました。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal12">
+            <div class="modal_content">
+                <span class="close_modal">&times;</span>
+                <div class="w_100 services_modal_content">
+                    <p class="modal_title">お客様の声 その3</p>
+                    <div class="w_100">
+                        <p class="feedback_title">三重県/整骨院</p>
+                        <div class="row_cont">
+                            <div class="row">
+                                <img src="assets/img/services/modal/modal_img_12.jpeg" alt="">
+                            </div>
+                            <div class="row">
+                                <p>最初は歯のことなので畑違いだと思いましたが、今の施術の邪魔にもならないし、単価も上がるのでメリットは多いと判断して購入しました。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="w_100">
+        <div class="w_100 footer_details_cont">
+            <div class="w_100">
+                <div class="container">
+                    <div class="footer_cont">
+                        <div class="footer_row">
+                            <div class="footer_logo">
+                                <img src="assets/img/logo.png" alt="">
+                            </div>
+                            <div class="footer_details">
+                                <p>株式会社アライズ</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 〒540-0028 大阪府大阪市中央区常盤町1-4-9 船岡ビル4F</p>
+                                <p><i class="fas fa-phone"></i> 06-6910-4161​</p>
+                                <p><i class="fas fa-tty"></i> 06-6910-4161​</p>
+                            </div>
+                        </div>
+                        <div class="footer_row">
+                            <div class="footer_img">
+                                <img src="/assets/img/footer_img_1.png" alt="">
+                                <img src="/assets/img/footer_img_2.png" alt="">
+                            </div>
+                            <div class="footer_map">
+                                <div class="mapouter">
+                                    <div class="gmap_canvas">
+                                        <iframe width="100%" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=%E8%88%B9%E5%B2%A1%E3%83%93%E3%83%AB&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                        <a href="https://fmovies-online.net"></a>
+                                        <br>
+                                        <style>.mapouter{position:relative;text-align:right;height:200px;width:100%;}</style><a href="https://www.embedgooglemap.net">google map code</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:100%;}</style>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_nav">
+                    <ul class="navbar_nav_foot">
+                        <li class="nav_item_foot">
+                            <a href="" class="nav_link">
+                                TOP
+                                <p>トップ</p>
+                            </a>
+                        </li>
+                        <li class="nav_item_foot ">
+                            <a href="" class="nav_link">
+                                SERVICES
+                                <p>サービス一覧</p>
+                            </a>
+                        </li>
+                        <li class="nav_item_foot">
+                            <a href="" class="nav_link">
+                                COMPANY
+                                <p>企業情報</p>
+                            </a>
+                        </li>
+                        <li class="nav_item_foot">
+                            <a href="" class="nav_link">
+                                RECRUITMENT
+                                <p>採用情報</p>
+                            </a>
+                        </li>
+                        <li class="nav_item_foot">
+                            <a href="" class="nav_link">
+                                CONTACT
+                                <p>お問合せ</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_copyright">
+                    <p class="copy_right_txt">Copyright © 2021 ALIS Corporate Website</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function(d) {
+            var config = {
+                kitId: 'jvl0vdy',
+                scriptTimeout: 3000,
+                async: true
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+    </script>
+    
+    <script>
+        function navbar_collapse(){
+            var navitem = document.querySelectorAll('.nav_item');
+            var navitemheight = document.querySelector('.nav_item');
+            var navbar = document.querySelector('.navbar_nav');
+            if(navbar.clientHeight){
+                navbar.style.height = 0;
+            }else{
+                var totalheight = navitemheight.clientHeight * navitem.length;
+                navbar.style.height = totalheight + "px";
+            }
+        }
+
+        window.onscroll = () => {
+            if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+                document.querySelector('header').classList.add('head_p_fixed');
+                document.querySelector('.head_logo').src='/assets/img/logo_fixed.png';
+            }
+            else{
+                document.querySelector('header').classList.remove('head_p_fixed');
+                document.querySelector('.head_logo').src='/assets/img/logo.png';
+            }
+        }
+
+        // Get the button that opens the modal
+        var btn = document.querySelectorAll("button.modal_click");
+        // All page modals
+        var modals = document.querySelectorAll('.modal');
+        // Get the <span> element that closes the modal
+        var spans = document.getElementsByClassName("close_modal");  
+
+        // When the user clicks the button, open the modal
+        for (var i = 0; i < btn.length; i++) {
+            btn[i].onclick = function(e) {
+                e.preventDefault();
+                modal = document.querySelector(e.target.getAttribute("href"));
+                modal.style.display = "block";
+            }
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        for (var i = 0; i < spans.length; i++) {
+            spans[i].onclick = function() {
+                for (var index in modals) {
+                if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+                }
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                for (var index in modals) {
+                    if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+                }
+            }
+        }
+
+    </script>
+    
+
+</body>
+</html>

@@ -73,6 +73,76 @@ $color4: #707070;
     }
 }
 
+.jumbo_section{
+    margin-bottom: 50px;
+    .w_100{
+        .jumbo_cont{
+            background-image: url(/assets/img/services/services_jumbo.jpg);
+            background-position: 0 50%;
+            background-size: cover;
+            height: 500px;
+            .jumbo_overlay{
+                position: absolute;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.50);
+            }
+            .jumbo_des{
+                position: relative;
+                z-index: 2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                h3{
+                    text-align: center;
+                    color: $color2;
+                    font-size: 26px;
+                    line-height: 100%;
+                    span{
+                        text-align: center;
+                        color: $color2;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.50);
+    .modal_content{
+        background-color: $color2;
+        width: 1000px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 30px;
+        @media only screen and (max-width: 1000px) {
+            width: 90%;
+        }
+        .close_modal{
+            position: absolute;
+            right: 5px;
+            top: 0;
+            color: #aaaaaa;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}
+
 
 // *************************************************
 // HEADER CSS
@@ -663,3 +733,147 @@ footer{
         }
     }
 }
+
+
+// *************************************************
+// SERVICES PAGE CSS
+// *************************************************
+
+// *************************************************
+// SERVICES SECTION CSS
+// *************************************************
+.services_section{
+    .w_100{
+        .container{
+            .services_title{
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 100px;
+                @media screen and (max-width: 875px) {
+                    margin-bottom: 50px;
+                }
+            }
+            .services_item_cont{
+                margin-bottom: 50px;
+                .services_item_title{
+                    text-align: center;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    font-size: 16px;
+                    position: relative;
+                    &::before{
+                        content: "";
+                        display: block;
+                        width: 50px;
+                        height: 2px;
+                        background-color: red;
+                        position: absolute;
+                        bottom: -5px;
+                        left: 50%;
+                        transform: translate(-50%, 0);
+                    }
+                }
+                .sevices_des{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: stretch;
+                    .row{
+                        width: 49%;
+                        @media screen and (max-width: 875px) {
+                            width: 100%;
+                        }
+                        img{
+                            width: 100%;
+                        }
+
+                        &:nth-of-type(2){
+                            display: flex;
+                            flex-wrap: wrap;
+                            justify-content: space-between;
+                            flex-direction: column;
+
+                            .ser_desc{
+                                @media screen and (max-width: 875px) {
+                                    margin-bottom: 20px;
+                                }
+                                p{
+                                    text-align: left;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 28px;
+                                }
+                            }
+                            .ser_btn_cont{
+                                display: flex;
+                                flex-wrap: wrap;
+                                justify-content: space-between;
+                                align-items: center;
+                                .ser_btn{
+                                    width: 32%;
+                                    padding: 10px;
+                                    background: $color3;
+                                    border: 1px solid $color3;
+                                    color: $color2;
+                                    border-radius: 10px;
+                                    cursor: pointer;
+                                    font-size: 14px;
+                                    font-weight: 600;
+
+                                    @media screen and (max-width: 500px) {
+                                        width: 100%;
+                                        margin-bottom: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal{
+    .modal_content{
+        .services_modal_content{
+            .modal_title{
+                font-weight: 600;
+                font-size: 16px;
+                text-align: center;
+                color: $color3;
+                margin-bottom: 10px;
+            }
+            .w_100{
+                .feedback_title{
+                    font-weight: 600;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                .row_cont{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    .row{
+                        width: 49%;
+                        @media only screen and (max-width: 600px) {
+                            width: 100%;
+                        }
+                        img{
+                            width: 100%;
+                        }
+                        p{
+                            font-weight: 600;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// SERVICES PAGE CSS
+// *************************************************
