@@ -22,6 +22,30 @@
 .section_1__sub2 {
   font-weight: 800;
   font-size: 13px;
-  padding: 0 0 10em 0;
+}
+
+.section_2 {
+  text-align: center;
+}
+
+.section_2__title {
+  font-size: 30px;
+  color: #303030;
+}
+
+.section_2__images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section_2__images .img_1 {
+  width: 50%;
 }
 /*# sourceMappingURL=recruitment.css.map */
