@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #303030;
+  font-family: "Yu Gothic", YuGothic, sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media only screen and (max-width: 1140px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.w_100 {
+  width: 100%;
+  position: relative;
+}
+
+.sect_title_cont {
+  margin-bottom: 50px;
+}
+
+.sect_title_cont .sect_title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.sect_title_cont .sect_border_mid {
+  border: 1px solid #000;
+  width: 300px;
+  margin: 0 auto 10px;
+}
+
+.sect_title_cont .sect_des {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn_container {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.btn_container .sect_btn {
+  display: inline-block;
+  background-color: #f6121c;
+  border: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 50px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+header {
+  position: fixed !important;
+  z-index: 999;
+}
+
+header .w_100 .container .w_100 .navbar {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+header .w_100 .container .w_100 .navbar .nav_logo a {
+  display: flex;
+  align-items: center;
+}
+
+header .w_100 .container .w_100 .navbar .nav_logo a img {
+  max-width: 70px;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav {
+  text-align: center;
+  position: relative;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item {
+  display: inline-block;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item:not(:last-child) {
+  margin-right: 50px;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .nav_link {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .nav_link p {
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link {
+  color: #db4832;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link p {
+  color: #db4832;
+}
+
+.section_1 .w_100 #bgvid {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.section_1 .w_100 .bg_overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.section_1 .w_100 .container {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.section_1 .w_100 .container .w_100 h2 {
+  font-family: yu-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.section_1 .w_100 .container .w_100 h2 span {
+  font-family: yu-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.section_2 {
+  padding: 40px 0 100px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .section_2 {
+    padding: 40px 0 0 0;
+  }
+}
+
+.section_2 .w_100 .container .w_100 .sect_2_des {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  text-align: left;
+  padding: 30px 100px 30px 100px;
+  background-color: #F7F7F7;
+  line-height: 33px;
+  color: #707070;
+}
+
+@media screen and (max-width: 768px) {
+  .section_2 .w_100 .container .w_100 .sect_2_des {
+    padding: 30px 3vw 30px 3vw;
+  }
+}
+
+.section_3 {
+  padding-bottom: 100px;
+}
+
+.section_3 .w_100 .desc_cont {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.section_3 .w_100 .desc_cont img {
+  width: 290px;
+}
+
+.section_3 .w_100 .desc_cont .desc_para {
+  margin-left: 50px;
+}
+
+.section_3 .w_100 .desc_cont .desc_para h3 {
+  color: red;
+  font-weight: bold;
+}
+
+.section_3 .w_100 .desc_cont .desc_para h4 {
+  color: #000;
+  font-weight: bold;
+}
+
+.section_3 .w_100 .desc_cont .desc_para p {
+  font-size: 16px;
+  line-height: 36px;
+  color: #707070;
+  font-weight: bold;
+}
+
+.section_3 .w_100 .desc_cont .desc_para .border_l {
+  border-left: 3px solid #000;
+  padding-left: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .section_3 .w_100 .desc_cont {
+    display: block;
+  }
+  .section_3 .w_100 .desc_cont img {
+    width: 100%;
+  }
+  .section_3 .w_100 .desc_cont .desc_img {
+    text-align: center;
+  }
+  .section_3 .w_100 .desc_cont .desc_para {
+    margin: 20px 0 0 0;
+  }
+}
+
+.section_4 .w_100 .sched_cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.section_4 .w_100 .sched_cont .time-table {
+  margin-right: 16px;
+}
+
+.section_4 .w_100 .sched_cont .task-list {
+  margin-left: 10px;
+}
+
+.section_4 .w_100 .sched_cont .task-list li::before {
+  content: "";
+  display: inline-block;
+  background-image: url(/assets/img/recruitment-sales/sect_4/circle.svg);
+  background-position: center center;
+  background-size: 10px 10px;
+  background-repeat: no-repeat;
+  height: 10px;
+  width: 10px;
+  padding-left: 35px;
+}
+
+.section_4 .w_100 .sched_cont li {
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.section_4 .w_100 .sched_cont .middle {
+  border-left: solid 1px #000;
+  margin-right: -33px;
+  padding: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  z-index: -1;
+}
+
+.section_5 .w_100 .contact_cont {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 653px;
+  margin-bottom: 50px;
+}
+
+.section_5 .w_100 .contact_cont tbody {
+  width: 100%;
+}
+
+.section_5 .w_100 .contact_cont tr td {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+  .section_5 .w_100 .contact_cont tr td {
+    font-size: 12px;
+  }
+}
+
+.section_5 .w_100 .contact_cont span {
+  width: 170px;
+  display: inline-block;
+}
+
+.section_5 .w_100 .contact_cont tr td:nth-of-type(2n+1) {
+  width: 285px;
+}
+
+.section_5 .w_100 .contact_btn {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section_5 .w_100 .contact_btn a {
+  background: red;
+  border: none;
+  padding: 10px 20px 5px 20px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+/*# sourceMappingURL=recruitment-sales.css.map */
