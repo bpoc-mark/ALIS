@@ -8,9 +8,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/company.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    
+     <!-- FONT AWESOME -->
+     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 <body>
 
@@ -21,30 +21,33 @@
                     <nav class="navbar">
                         <h1 class="nav_logo">
                             <a href="">
-                                <img src="assets/img/logo.png" alt="">
+                                <img src="assets/img/logo.png" class="head_logo" alt="">
                             </a>
                         </h1>
+                        <button class="navbar_toggler" type="button" onclick="navbar_collapse()">
+                            <i class="fas fa-bars"></i>
+                        </button>
                         <ul class="navbar_nav">
-                            <li class="nav_item">
-                                <a href="" class="nav_link">
+                            <li class="nav_item ">
+                                <a href="" class="nav_link active_link">
                                     TOP
                                     <p>トップ</p>
                                 </a>
                             </li>
-                            <li class="nav_item">
+                            <li class="nav_item ">
                                 <a href="" class="nav_link">
                                     SERVICES
                                     <p>サービス一覧</p>
                                 </a>
                             </li>
                             <li class="nav_item">
-                                <a href="" class="nav_link  active_link">
+                                <a href="" class="nav_link">
                                     COMPANY
                                     <p>企業情報</p>
                                 </a>
                             </li>
                             <li class="nav_item">
-                                <a href="./recruitment.html" class="nav_link">
+                                <a href="" class="nav_link">
                                     RECRUITMENT
                                     <p>採用情報</p>
                                 </a>
@@ -63,19 +66,15 @@
     </header>
 
     <main>
-        <section class="company_section_1 w_100">
+        <section class="jumbo_section">
             <div class="w_100">
-                <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
-                    <source src="assets/img/index/sect_1/hero_bg_vid.mov" type="video/webm">
-                    <source src="assets/img/index/sect_1/hero_bg_vid.mov" type="video/mp4">
-                </video>
-                <div class="bg_overlay"></div>
-                <div class="container">
-                    <div class="w_100">
-                        <h2>
-                            より良い <span>サービスで</span> <br>
-                            <span>みんなを</span>幸せ<span>に</span>
-                        </h2>
+                <div class="jumbo_cont jumbo_company">
+                    <div class="jumbo_overlay"></div>
+                    <div class="jumbo_des">
+                        <h3>    
+                            COMPANY <br>
+                            <span>企業情報</span>
+                        </h3>
                     </div>
                 </div>
             </div>
@@ -176,8 +175,79 @@
         </section>
     </main>
 
-    <footer>
-
+    <footer class="w_100">
+        <div class="w_100 footer_details_cont">
+            <div class="w_100">
+                <div class="container">
+                    <div class="footer_cont">
+                        <div class="footer_row">
+                            <div class="footer_logo">
+                                <img src="assets/img/logo.png" alt="">
+                            </div>
+                            <div class="footer_details">
+                                <p>株式会社アライズ</p>
+                                <p><i class="fas fa-map-marker-alt"></i> 〒540-0028 大阪府大阪市中央区常盤町1-4-9 船岡ビル4F</p>
+                                <p><i class="fas fa-phone"></i> 06-6910-4161​</p>
+                                <p><i class="fas fa-tty"></i> 06-6910-4161​</p>
+                            </div>
+                        </div>
+                        <div class="footer_row">
+                            <div class="footer_img">
+                                <img src="/assets/img/footer_img_1.png" alt="">
+                                <img src="/assets/img/footer_img_2.png" alt="">
+                            </div>
+                            <div class="footer_map">
+                                <div class="mapouter">
+                                    <div class="gmap_canvas">
+                                        <iframe width="100%" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=%E8%88%B9%E5%B2%A1%E3%83%93%E3%83%AB&t=&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                        <a href="https://fmovies-online.net"></a>
+                                        <br>
+                                        <style>.mapouter{position:relative;text-align:right;height:200px;width:100%;}</style><a href="https://www.embedgooglemap.net">google map code</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:100%;}</style>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_nav">
+                    <ul class="navbar_nav_foot">
+                        <li class="nav_item_foot">
+                            <a href="" class="nav_link">
+                                TOP
+                                <p>トップ</p>
+                            </a>
+                        </li>
+                        <li class="nav_item_foot ">
+                            <a href="" class="nav_link">
+                                SERVICES
+                                <p>サービス一覧</p>
+                            </a>
+                        </li>
+                        <li class="nav_item_foot">
+                            <a href="" class="nav_link">
+                                COMPANY
+                                <p>企業情報</p>
+                            </a>
+                        </li>
+                        <li class="nav_item_foot">
+                            <a href="" class="nav_link">
+                                RECRUITMENT
+                                <p>採用情報</p>
+                            </a>
+                        </li>
+                        <li class="nav_item_foot">
+                            <a href="" class="nav_link">
+                                CONTACT
+                                <p>お問合せ</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_copyright">
+                    <p class="copy_right_txt">Copyright © 2021 ALIS Corporate Website</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <script>
@@ -189,6 +259,66 @@
             },
             h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
+    </script>
+    
+    <script>
+        function navbar_collapse(){
+            var navitem = document.querySelectorAll('.nav_item');
+            var navitemheight = document.querySelector('.nav_item');
+            var navbar = document.querySelector('.navbar_nav');
+            if(navbar.clientHeight){
+                navbar.style.height = 0;
+            }else{
+                var totalheight = navitemheight.clientHeight * navitem.length;
+                navbar.style.height = totalheight + "px";
+            }
+        }
+
+        window.onscroll = () => {
+            if(document.body.scrollTop > 500 || document.documentElement.scrollTop > 500){
+                document.querySelector('header').classList.add('head_p_fixed');
+                document.querySelector('.head_logo').src='/assets/img/logo_fixed.png';
+            }
+            else{
+                document.querySelector('header').classList.remove('head_p_fixed');
+                document.querySelector('.head_logo').src='/assets/img/logo.png';
+            }
+        }
+
+        // Get the button that opens the modal
+        var btn = document.querySelectorAll("button.modal_click");
+        // All page modals
+        var modals = document.querySelectorAll('.modal');
+        // Get the <span> element that closes the modal
+        var spans = document.getElementsByClassName("close_modal");  
+
+        // When the user clicks the button, open the modal
+        for (var i = 0; i < btn.length; i++) {
+            btn[i].onclick = function(e) {
+                e.preventDefault();
+                modal = document.querySelector(e.target.getAttribute("href"));
+                modal.style.display = "block";
+            }
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        for (var i = 0; i < spans.length; i++) {
+            spans[i].onclick = function() {
+                for (var index in modals) {
+                if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+                }
+            }
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                for (var index in modals) {
+                    if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";    
+                }
+            }
+        }
+
     </script>
     
 </body>

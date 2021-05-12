@@ -877,3 +877,417 @@ footer{
 // *************************************************
 // SERVICES PAGE CSS
 // *************************************************
+
+
+// *************************************************
+// COMPANY PAGE CSS
+// *************************************************
+
+// *************************************************
+// Company SECTION 1
+// *************************************************
+.jumbo_section{
+    margin-bottom: 50px;
+    .w_100{
+        .jumbo_company{
+            background-image: url(/assets/img/company/jumbo_company.jpg);
+        }
+    }
+}
+
+// *************************************************
+// Company SECTION 2
+// *************************************************
+.company_section_2{
+    .w_100{
+        .container{
+            @media only screen and (max-width: 767px) {
+                padding: 0;
+            }
+            .w_100{
+                .sect_title_cont{
+                    margin-bottom: 0;
+                }
+                .c_2_title{
+                    .sect_title{
+                        font-size: 20px;
+                    }
+                    .sect_border_mid{
+                        width: 55px;
+                        border: 1px solid black;
+                        margin: 5px auto;
+                    }
+                    .sect_des{
+                        font-size: 14px;
+                        text-align: center;
+                        font-weight: 700;
+                    }
+                }
+                .c_container{
+                    width: 630px;
+                    height: auto;
+                    margin: 0 auto;
+                    @media only screen and (max-width: 630px) {
+                        width: 100%;
+                    }
+                    .c_img{
+                        padding-top: 25px;
+                        padding-bottom: 20px;
+                        img{
+                            width: 100%;
+                            height: auto;
+                            vertical-align: middle;
+                            display: inline-block;
+                        }
+                    }
+                    .c_message{
+                        padding: 10px;
+                        .ceo_mes{
+                            font-family: "Montserrat",sans-serif;
+                            font-size: 13px;
+                            font-weight: 500;
+                            line-height: 25px;
+                            letter-spacing: 1px;
+                            text-align: justify;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// Company SECTION 3
+// *************************************************
+.company_section_3{
+    .w_100{
+        .c_information{
+            padding: 60px 0;
+            .w_100{
+                .sect_title_cont{
+                    margin-bottom: 0;
+                }
+                .c_3_title{
+                    margin-bottom: 27px;
+                    .sect_title{
+                        font-size: 20px;
+                    }
+                    .sect_border_mid{
+                        width: 55px;
+                        border: 1px solid black;
+                        margin: 5px auto;
+                    }
+                    .sect_des{
+                        font-size: 14px;
+                        text-align: center;
+                        font-weight: 700;
+                    }
+                }
+
+                .t_container{
+                    width: 630px;
+                    margin: 0 auto;
+                    @media only screen and (max-width: 767px) {
+                        width: 100%
+                    }
+                    .c_table{
+                        width: 400px;
+                        margin: 0 auto;
+                        border-collapse: collapse;
+                        @media only screen and (max-width: 400px) {
+                            width: 95%;
+                        }
+                        td{
+                            border-bottom: 1px solid #ABABAB;
+                            font-family: "Montserrat",sans-serif;
+                            font-size: 13px;
+                            font-weight: 500;
+                            color: $color1;
+                        }
+                        td:nth-child(odd){
+                            padding: 5px 5px 5px 50px;
+                            text-align: left;
+                            width: 50%;
+                            @media only screen and (max-width: 767px) {
+                                width: 45%;
+                            }
+                            @media only screen and (max-width: 400px) {
+                                padding: 5px 5px 5px 5px;
+                            }
+                        }
+                        td:nth-child(even){
+                            padding: 5px 5px 5px 5px;
+                            width: 50%;
+                            @media only screen and (max-width: 767px) {
+                                width: 45%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// COMPANY PAGE CSS
+// *************************************************
+
+
+// *************************************************
+// COMPANY PAGE CSS
+// *************************************************
+
+// *************************************************
+// Recruitment SECTION 2
+// *************************************************
+.recruitment_section_2{
+    padding-top: 55px;
+    .w_100{
+        .container{
+            .w_100{
+                .r_2_title{
+                    .sect_title{
+                        padding-top: 100px;
+                        padding-bottom: 70px;
+                    }
+                    .sect_des{
+                        margin-bottom: 1.6em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// *************************************************
+// Recruitment SECTION 3
+// *************************************************
+.recruitment_section_3{
+    padding-top: 55px;
+    .w_100{
+        margin-bottom: 100px;
+        .r_3_title{
+            .sect_title{
+                margin: 70px auto;
+            }
+        }
+        .r1{
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            justify-content: flex-start;
+            list-style-type: none;
+            .w_50{
+                width: 49.3%;
+                height: auto;
+                @media only screen and (max-width: 767px) {
+                   width: 100%;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .btn_area{
+                // width:10%;
+                position: absolute;
+                top: 17%;
+                left: 53.4%;
+                transform: translate(-50%, -50%);
+                .btn_title{
+                    font-size: 30px;
+                    font-weight: 400px;
+                    text-align: center;
+                }
+                a{
+                    img{
+                        width: 250px;
+                        margin-left: 100px;
+                    }
+                }
+                @media only screen and (max-width: 767px) {
+                    width: 100%;
+                    position:relative;
+                    margin-top: 50px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    a{
+                        &::after{
+                            content: "Read more";
+                            color: #fff;
+                            position: absolute;
+                            top: 130%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 100px;
+                            height: auto;
+                            background-color: #f6121c;
+                            padding: 5px;
+                            text-align: center;
+                            border-radius: 3px;
+                        }
+                        
+                        img{
+                            display: none;
+                        }
+                    }
+                 }
+            }        
+        }
+
+        .r2{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            justify-content: flex-end;
+            list-style-type: none;
+            position: relative;
+            .w_50{
+                width: 49.3%;
+                height: auto;
+                @media only screen and (max-width: 767px) {
+                    width: 100%;
+                 }
+                img{
+                    width: 100%;
+                }
+            }
+            .btn_area{
+                // width:10.7%;
+                position: absolute;
+                top: 17%;
+                left: 37.2%;
+                transform: translate(-50%, -50%);
+                .btn_title{
+                    font-size: 30px;
+                    font-weight: 400px;
+                    text-align:end;
+                    margin-right: 30px;
+                    @media only screen and (max-width: 767px) {
+                        text-align:center;
+                        margin-right: 0;
+                     }
+                }
+                a{
+                    img{
+                        width: 250px;
+                        margin-left: 100px;
+                    }
+                }
+                @media only screen and (max-width: 767px) {
+                    width: 100%;
+                    position:relative;
+                    margin-top: 50px;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    a{
+                        &::after{
+                            content: "Read more";
+                            color: #fff;
+                            position: absolute;
+                            top: 130%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            width: 100px;
+                            height: auto;
+                            background-color: #f6121c;
+                            padding: 5px;
+                            text-align: center;
+                            border-radius: 3px;
+                        }
+                        
+                        img{
+                            display: none;
+                        }
+                    }
+                 }
+            }        
+        }
+
+        .r3{
+                position: relative;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: stretch;
+                justify-content: flex-start;
+                list-style-type: none;
+                .w_50{
+                    width: 49.3%;
+                    height: auto;
+                    @media only screen and (max-width: 767px) {
+                        width: 100%;
+                     }
+                    img{
+                        width: 100%;
+                    }
+                }
+                .btn_area{
+                    // width:12%;
+                    position: absolute;
+                    top: 17%;
+                    left: 54.4%;
+                    transform: translate(-50%, -50%);
+                    .btn_title{
+                        font-size: 30px;
+                        font-weight: 400px;
+                        text-align: center;
+                        margin-left: 90px;
+                        @media only screen and (max-width: 767px) {
+                            margin-left: 0;
+                         }
+                    }
+                    a{
+                        img{
+                            width: 250px;
+                            margin-left: 100px;
+                        }
+                    }
+                    @media only screen and (max-width: 767px) {
+                        width: 100%;
+                        position:relative;
+                        margin-top: 50px;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        a{
+                            &::after{
+                                content: "Read more";
+                                color: #fff;
+                                position: absolute;
+                                top: 130%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                width: 100px;
+                                height: auto;
+                                background-color: #f6121c;
+                                padding: 5px;
+                                text-align: center;
+                                border-radius: 3px;
+                            }
+                            
+                            
+                            
+                            img{
+                                display: none;
+                            }
+                        }
+                     }
+                }        
+            }
+    }
+}
+
+
+// *************************************************
+// COMPANY PAGE CSS
+// *************************************************

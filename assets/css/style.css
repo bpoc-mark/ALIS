@@ -915,4 +915,413 @@ footer .footer_details_cont .w_100 .footer_copyright .copy_right_txt {
   font-weight: 600;
   font-size: 16px;
 }
+
+.jumbo_section {
+  margin-bottom: 50px;
+}
+
+.jumbo_section .w_100 .jumbo_company {
+  background-image: url(/assets/img/company/jumbo_company.jpg);
+}
+
+@media only screen and (max-width: 767px) {
+  .company_section_2 .w_100 .container {
+    padding: 0;
+  }
+}
+
+.company_section_2 .w_100 .container .w_100 .sect_title_cont {
+  margin-bottom: 0;
+}
+
+.company_section_2 .w_100 .container .w_100 .c_2_title .sect_title {
+  font-size: 20px;
+}
+
+.company_section_2 .w_100 .container .w_100 .c_2_title .sect_border_mid {
+  width: 55px;
+  border: 1px solid black;
+  margin: 5px auto;
+}
+
+.company_section_2 .w_100 .container .w_100 .c_2_title .sect_des {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.company_section_2 .w_100 .container .w_100 .c_container {
+  width: 630px;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 630px) {
+  .company_section_2 .w_100 .container .w_100 .c_container {
+    width: 100%;
+  }
+}
+
+.company_section_2 .w_100 .container .w_100 .c_container .c_img {
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.company_section_2 .w_100 .container .w_100 .c_container .c_img img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.company_section_2 .w_100 .container .w_100 .c_container .c_message {
+  padding: 10px;
+}
+
+.company_section_2 .w_100 .container .w_100 .c_container .c_message .ceo_mes {
+  font-family: "Montserrat",sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.company_section_3 .w_100 .c_information {
+  padding: 60px 0;
+}
+
+.company_section_3 .w_100 .c_information .w_100 .sect_title_cont {
+  margin-bottom: 0;
+}
+
+.company_section_3 .w_100 .c_information .w_100 .c_3_title {
+  margin-bottom: 27px;
+}
+
+.company_section_3 .w_100 .c_information .w_100 .c_3_title .sect_title {
+  font-size: 20px;
+}
+
+.company_section_3 .w_100 .c_information .w_100 .c_3_title .sect_border_mid {
+  width: 55px;
+  border: 1px solid black;
+  margin: 5px auto;
+}
+
+.company_section_3 .w_100 .c_information .w_100 .c_3_title .sect_des {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.company_section_3 .w_100 .c_information .w_100 .t_container {
+  width: 630px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .company_section_3 .w_100 .c_information .w_100 .t_container {
+    width: 100%;
+  }
+}
+
+.company_section_3 .w_100 .c_information .w_100 .t_container .c_table {
+  width: 400px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+@media only screen and (max-width: 400px) {
+  .company_section_3 .w_100 .c_information .w_100 .t_container .c_table {
+    width: 95%;
+  }
+}
+
+.company_section_3 .w_100 .c_information .w_100 .t_container .c_table td {
+  border-bottom: 1px solid #ABABAB;
+  font-family: "Montserrat",sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #303030;
+}
+
+.company_section_3 .w_100 .c_information .w_100 .t_container .c_table td:nth-child(odd) {
+  padding: 5px 5px 5px 50px;
+  text-align: left;
+  width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .company_section_3 .w_100 .c_information .w_100 .t_container .c_table td:nth-child(odd) {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .company_section_3 .w_100 .c_information .w_100 .t_container .c_table td:nth-child(odd) {
+    padding: 5px 5px 5px 5px;
+  }
+}
+
+.company_section_3 .w_100 .c_information .w_100 .t_container .c_table td:nth-child(even) {
+  padding: 5px 5px 5px 5px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+  .company_section_3 .w_100 .c_information .w_100 .t_container .c_table td:nth-child(even) {
+    width: 45%;
+  }
+}
+
+.recruitment_section_2 {
+  padding-top: 55px;
+}
+
+.recruitment_section_2 .w_100 .container .w_100 .r_2_title .sect_title {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.recruitment_section_2 .w_100 .container .w_100 .r_2_title .sect_des {
+  margin-bottom: 1.6em;
+}
+
+.recruitment_section_3 {
+  padding-top: 55px;
+}
+
+.recruitment_section_3 .w_100 {
+  margin-bottom: 100px;
+}
+
+.recruitment_section_3 .w_100 .r_3_title .sect_title {
+  margin: 70px auto;
+}
+
+.recruitment_section_3 .w_100 .r1 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.recruitment_section_3 .w_100 .r1 .w_50 {
+  width: 49.3%;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r1 .w_50 {
+    width: 100%;
+  }
+}
+
+.recruitment_section_3 .w_100 .r1 .w_50 img {
+  width: 100%;
+}
+
+.recruitment_section_3 .w_100 .r1 .btn_area {
+  position: absolute;
+  top: 17%;
+  left: 53.4%;
+  transform: translate(-50%, -50%);
+}
+
+.recruitment_section_3 .w_100 .r1 .btn_area .btn_title {
+  font-size: 30px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.recruitment_section_3 .w_100 .r1 .btn_area a img {
+  width: 250px;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r1 .btn_area {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .recruitment_section_3 .w_100 .r1 .btn_area a::after {
+    content: "Read more";
+    color: #fff;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    background-color: #f6121c;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .recruitment_section_3 .w_100 .r1 .btn_area a img {
+    display: none;
+  }
+}
+
+.recruitment_section_3 .w_100 .r2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-end;
+  list-style-type: none;
+  position: relative;
+}
+
+.recruitment_section_3 .w_100 .r2 .w_50 {
+  width: 49.3%;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r2 .w_50 {
+    width: 100%;
+  }
+}
+
+.recruitment_section_3 .w_100 .r2 .w_50 img {
+  width: 100%;
+}
+
+.recruitment_section_3 .w_100 .r2 .btn_area {
+  position: absolute;
+  top: 17%;
+  left: 37.2%;
+  transform: translate(-50%, -50%);
+}
+
+.recruitment_section_3 .w_100 .r2 .btn_area .btn_title {
+  font-size: 30px;
+  font-weight: 400px;
+  text-align: end;
+  margin-right: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r2 .btn_area .btn_title {
+    text-align: center;
+    margin-right: 0;
+  }
+}
+
+.recruitment_section_3 .w_100 .r2 .btn_area a img {
+  width: 250px;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r2 .btn_area {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .recruitment_section_3 .w_100 .r2 .btn_area a::after {
+    content: "Read more";
+    color: #fff;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    background-color: #f6121c;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .recruitment_section_3 .w_100 .r2 .btn_area a img {
+    display: none;
+  }
+}
+
+.recruitment_section_3 .w_100 .r3 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+
+.recruitment_section_3 .w_100 .r3 .w_50 {
+  width: 49.3%;
+  height: auto;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r3 .w_50 {
+    width: 100%;
+  }
+}
+
+.recruitment_section_3 .w_100 .r3 .w_50 img {
+  width: 100%;
+}
+
+.recruitment_section_3 .w_100 .r3 .btn_area {
+  position: absolute;
+  top: 17%;
+  left: 54.4%;
+  transform: translate(-50%, -50%);
+}
+
+.recruitment_section_3 .w_100 .r3 .btn_area .btn_title {
+  font-size: 30px;
+  font-weight: 400px;
+  text-align: center;
+  margin-left: 90px;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r3 .btn_area .btn_title {
+    margin-left: 0;
+  }
+}
+
+.recruitment_section_3 .w_100 .r3 .btn_area a img {
+  width: 250px;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+  .recruitment_section_3 .w_100 .r3 .btn_area {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .recruitment_section_3 .w_100 .r3 .btn_area a::after {
+    content: "Read more";
+    color: #fff;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: auto;
+    background-color: #f6121c;
+    padding: 5px;
+    text-align: center;
+    border-radius: 3px;
+  }
+  .recruitment_section_3 .w_100 .r3 .btn_area a img {
+    display: none;
+  }
+}
 /*# sourceMappingURL=style.css.map */
