@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALIS</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/single.css">
+
+</head>
+
+<body>
+
+    <header class="w_100">
+        <div class="w_100">
+            <div class="container">
+                <div class="w_100">
+                    <nav class="navbar">
+                        <h1 class="nav_logo">
+                            <a href="">
+                                <img src="assets/img/logo.png" alt="">
+                            </a>
+                        </h1>
+                        <ul class="navbar_nav">
+                            <li class="nav_item">
+                                <a href="" class="nav_link active_link">
+                                    TOP
+                                    <p>トップ</p>
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="" class="nav_link">
+                                    SERVICES
+                                    <p>サービス一覧</p>
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="" class="nav_link">
+                                    COMPANY
+                                    <p>企業情報</p>
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="" class="nav_link">
+                                    RECRUITMENT
+                                    <p>採用情報</p>
+                                </a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="" class="nav_link">
+                                    CONTACT
+                                    <p>お問合せ</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section_1 w_100">
+            <div class="w_100">
+                <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+                    <source src="assets/img/index/sect_1/hero_bg_vid.mov" type="video/webm">
+                    <source src="assets/img/index/sect_1/hero_bg_vid.mov" type="video/mp4">
+                </video>
+                <div class="bg_overlay"></div>
+                <div class="container">
+                    <div class="w_100">
+                        <h2>
+                            より良い <span>サービスで</span> <br>
+                            <span>みんなを</span>幸せ<span>に</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_2 w_100">
+            <div class="container">
+                <div class="inner_cont">
+                    <div class="large_img">
+                        <img src="assets/img/single/sect_2/img_1.jpg" alt="">
+                    </div>
+
+                    <div class="text_cont">
+                        <h1>Lorem ipsum</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis enim metus, pharetra sit amet
+                            rhoncus at, facilisis pretium nibh. Donec suscipit tortor odio, sit amet mollis tellus
+                            suscipit non.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script>
+        var visibleDiv = 0;
+
+        function showDiv() {
+            $(".grid").hide();
+            $(".grid:   eq(" + visibleDiv + ")").show();
+        }
+        showDiv()
+
+        function showNext() {
+            if (visibleDiv == $(".grid").length - 1) {
+                visibleDiv = 0;
+            } else {
+                visibleDiv++;
+            }
+            showDiv();
+        }
+
+        function showPrev() {
+            if (visibleDiv = 0) {
+                visibleDiv == $(".grid").length - 1
+            } else {
+                visibleDiv--;
+            }
+            showDiv();
+        }
+    </script>
+
+
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'jvl0vdy',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f % 7 C % 7 Ca && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+</body>
+
+</html>

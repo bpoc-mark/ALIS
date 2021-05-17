@@ -1,0 +1,271 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #303030;
+  font-family: "Yu Gothic", YuGothic, sans-serif;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media only screen and (max-width: 1140px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+.w_100 {
+  width: 100%;
+  position: relative;
+}
+
+.sect_title_cont {
+  margin-bottom: 50px;
+}
+
+.sect_title_cont .sect_title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.sect_title_cont .sect_border_mid {
+  border: 1px solid #000;
+  width: 300px;
+  margin: 0 auto 10px;
+}
+
+.sect_title_cont .sect_des {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.btn_container {
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+.btn_container .sect_btn {
+  display: inline-block;
+  background-color: #f6121c;
+  border: none;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 50px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+header {
+  position: fixed !important;
+  z-index: 999;
+}
+
+header .w_100 .container .w_100 .navbar {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+}
+
+header .w_100 .container .w_100 .navbar .nav_logo a {
+  display: flex;
+  align-items: center;
+}
+
+header .w_100 .container .w_100 .navbar .nav_logo a img {
+  max-width: 70px;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav {
+  text-align: center;
+  position: relative;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item {
+  display: inline-block;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item:not(:last-child) {
+  margin-right: 50px;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .nav_link {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .nav_link p {
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link {
+  color: #db4832;
+}
+
+header .w_100 .container .w_100 .navbar .navbar_nav .nav_item .active_link p {
+  color: #db4832;
+}
+
+.section_1 .w_100 #bgvid {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.section_1 .w_100 .bg_overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.section_1 .w_100 .container {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+}
+
+.section_1 .w_100 .container .w_100 h2 {
+  font-family: yu-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #FFFFFF;
+}
+
+.section_1 .w_100 .container .w_100 h2 span {
+  font-family: yu-mincho-pr6n, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.section_2 {
+  margin: 20px 0 200px 0;
+}
+
+.section_2 .container .title_filter {
+  /* Style the tab */
+  /* Style the buttons inside the tab */
+  /* Change background color of buttons on hover */
+  /* Create an active/current tablink class */
+  /* Style the tab content */
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section_2 .container .title_filter .tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.section_2 .container .title_filter .tab button:hover {
+  background-color: #ddd;
+}
+
+.section_2 .container .title_filter .tab button.active {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+.section_2 .container .title_filter .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.section_2 .container .inner_cont {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.section_2 .container .inner_cont .thumbnail {
+  width: 32%;
+  background-color: #f6f6f6;
+  padding: 0 0 30px 0;
+}
+
+.section_2 .container .inner_cont .thumbnail .inner_content {
+  background-color: #fff;
+  margin: 0 25px -10px 25px;
+  padding: 20px 20px;
+  margin-top: -40px;
+  z-index: 150;
+  position: relative;
+}
+
+.section_2 .container .inner_cont .thumbnail .inner_content p {
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.section_2 .container .inner_cont .thumbnail .inner_content .border_b {
+  padding-bottom: 25px;
+  border-bottom: 2px solid red;
+  margin-bottom: 10px;
+  color: #B7B4B4;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.section_2 .container .inner_cont .thumbnail .inner_content .bold {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.section_2 .container .inner_cont .thumbnail .inner_content .btn_read {
+  text-align: left;
+}
+
+.section_2 .container .inner_cont .thumbnail .inner_content .btn_read button {
+  border: none;
+  background-color: red;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.section_2 .container .inner_cont img {
+  width: 100%;
+}
+/*# sourceMappingURL=news.css.map */
